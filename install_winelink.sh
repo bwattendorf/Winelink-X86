@@ -96,7 +96,7 @@ function run_main()
             run_installwine "pi4" "devel" "7.1" "debian" "${VERSION_CODENAME}" "-1" # windows API-call interperter for non-windows OS's - freeze version to ensure compatability
             run_installwinetricks # software installer script for wine
             run_installahk
-            run_downloadbox86 10_Dec_21 # emulator to run wine-i386 on ARM - freeze version to ensure compatability
+            #run_downloadbox86 10_Dec_21 # emulator to run wine-i386 on ARM - freeze version to ensure compatability
         
         ### Set up Wine (silently make & configure a new wineprefix)
             run_setupwineprefix $ARG # if 'vara_only' was passed to the winelink script, then pass 'vara_only' to this subroutine function too
