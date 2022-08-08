@@ -7,11 +7,11 @@ _This project is very early in development. It has lots of bugs and should be co
 ## Installation
 Copy/paste these commands into your Raspberry Pi 4's terminal:
 ```bash
-curl -O https://raw.githubusercontent.com/WheezyE/Winelink/main/install_winelink.sh && \
+curl -O https://raw.githubusercontent.com/bwattendorf/Winelink-X86/main/install_winelink.sh && \
      bash install_winelink.sh
 ```
  - A full installation takes about 10 minutes (with user prompts)
- - If desired, you can tell the script to only install VARA by running `curl -O https://raw.githubusercontent.com/WheezyE/Winelink/main/install_winelink.sh && bash install_winelink.sh vara_only`
+ - If desired, you can tell the script to only install VARA by running `curl -O https://raw.githubusercontent.com/bwattendorf/Winelink-X86/main/install_winelink.sh && bash install_winelink.sh vara_only`
 
 ## Examples
 ![VARA-Pi4](VARA-Pi4.png "VARA running on a Raspberry Pi 4B (Twister OS)")
